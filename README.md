@@ -7,9 +7,22 @@ Create a Python virtual environment
 python -m venv venv
 ```
 
+Activate the virtual environment:
+
+On Linux / MacOS
+```commandline
+source venv/Scripts/activate
+```
+
+On Windows
+
+```commandline
+ .\venv\Scripts\activate
+```
+
 Install packages with pip
 ```commandline
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Run tests
